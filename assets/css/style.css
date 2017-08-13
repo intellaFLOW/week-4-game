@@ -9,11 +9,13 @@ div{
 	padding: 10px;	
 }
 span{
+	font-family: 'Sedgwick Ave', cursive;	
 	font-weight: bold;
 	text-align: center;
 }
 h1{
-	font-size: 30pt;
+	font-family: 'Sedgwick Ave', cursive;	
+	font-size: 75pt;
 	font-weight: bold;
 	text-align: center;
 }
@@ -23,17 +25,23 @@ h3{
 	color: white;
 	border: solid 1px white;
 	padding: 5px;
+	font-family: 'Sedgwick Ave', cursive;
 	font-weight: bold;
 	text-align: center;
 }
 ol{
-	list-style: decimal inside; 
+	list-style: decimal inside;
+	line-height: 150%;
+	font-family: 'Sedgwick Ave', cursive;
+	font-weight: lighter;
 }
 ul {
+	font-family: 'Sedgwick Ave', cursive;	
 	list-style: disc inside;
 	text-indent: 20px;
 }
 b{
+	font-family: 'Sedgwick Ave', cursive;
 	font-weight: bold;
 }
 /* Specfic Elements */
@@ -48,27 +56,33 @@ div.artists{
 	width: 80%;
 	margin:10%;
 }
-div.instructions{
+div.rules{
 	width: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 /* Classes */
 .numberToMatch{
+	font-family: 'Sedgwick Ave', cursive;
 	height: 90px;
 	width: 90px;
 	margin-left: 40%;
 	float: left;
+	padding: 5px;
 }
 .winsAndLosses{
+	font-family: 'Sedgwick Ave', cursive;
 	height: 90px;
 	width: 90px;
 	float: left;
+	padding: 5px;
 }
 .userTotal{
+	font-family: 'Sedgwick Ave', cursive;
 	height: 90px;
 	width: 90px;
 	float: left;
+	padding: 5px;w	
 }
 .artist{
 	clear: both;
