@@ -57,19 +57,17 @@ div.instructions{
 .numberToMatch{
 	height: 90px;
 	width: 90px;
-	margin: 10px;
+	margin-left: 40%;
 	float: left;
 }
 .winsAndLosses{
 	height: 90px;
 	width: 90px;
-	margin: 10px;
 	float: left;
 }
 .userTotal{
 	height: 90px;
 	width: 90px;
-	margin: 10px;
 	float: left;
 }
 .artist{
