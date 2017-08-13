@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Battle of the Goat's</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>BATTLE OF THE <img src="assets/images/goat.png" class="emoji" id="Goat">'S</h1>
+  </div>
+  <h3>Here's how you play the game</h3>
+  <div class="instructions">
+  <center>
+    </br>
+    <ol>
+      <li>You will be given a number at the start of the battle in the <b>"Match This Number"</b> box.</li>
+      <li>Choose artists below.</li>
+      <ul>
+        <li class="tupac">Tupac Shakur</li>
+        <li class="big">The Notorious BIG</li>
+        <li class="jayz">HOVA</li>
+        <li class="kanye">Yeezy</li>
+      </ul>
+      <li>By clicking on an artist, you will add a pre-determined amount of points to your total score.</li>
+      <li>WIN the game by matching your total score to the number given to you at the beginning of the game.</li>
+      <li>If you are unable to match the given number, you will LOSE!</li>
+      <ul><br><br><b>HINTS:</b>Each artist will be worth a different amount of points per game.</ul>
+      <ul>The computer resets the number to reach when the game ends.</ul>
+    </ol>
+  </center>  
+  </div>
+  <div class="numberToMatch">
+    <h2>Match This Number:
+      <span id= "randomNumber"></span>
+    </h2>
+  </div>
+  <div class="winsAndLosses">
+    <h2>Wins:
+      <span id= "numberWins"></span>
+      </br>
+      Losses: 
+      <span id= "numberLosses"></span>
+  </div>
+  <div class="userTotal">
+    <h2>Your total score is:
+      <span id="finalTotal"></span>
+    </h2>
+  </div>
+    </h2>
+  </div>
+  <div class="artists">
+  <center>
+    <img src="assets/images/tupac.jpg" class=artistImage id="pac" alt="Tupac">
+    <img src="assets/images/big.png" class=artistImage id="biggie" alt="Biggie">
+    <img src="assets/images/jayz.jpg" class=artistImage id= "jay" alt="Jay-Z">
+    <img src="assets/images/kanye.png" class=artistImage id= "ye" alt="Kanye">
+    </center>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+  <script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+</html>
